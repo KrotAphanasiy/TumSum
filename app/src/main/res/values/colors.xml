@@ -9,4 +9,6 @@
     <color name="white">#FFFFFFFF</color>
     <color name="light_green">#D2ECBB</color>
     <color name="hard_green">#729850</color>
+    <color name="input_green">#70A7C86E</color>
+    <color name="button_stroke">#0E6D1A</color>
 </resources>

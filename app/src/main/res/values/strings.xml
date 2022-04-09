@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">TumSum</string>
+    <string name="login">LOGIN</string>
+    <string name="register">REGISTER</string>
 </resources>
