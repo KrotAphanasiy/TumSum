@@ -7,19 +7,22 @@
     android:background="@mipmap/main_background"
     android:fontFamily="Open Sans"
     tools:layout_editor_absoluteX="0dp"
-    tools:layout_editor_absoluteY="-37dp">
+    tools:layout_editor_absoluteY="6dp">
 
     <EditText
         android:id="@+id/editPasswordTextBox"
         android:layout_width="304dp"
         android:layout_height="48dp"
-        android:layout_marginBottom="24dp"
+        android:layout_marginBottom="420dp"
         android:width="304dp"
         android:height="48dp"
         android:background="@drawable/login_register_background"
         android:ems="10"
+        android:hint="Password"
         android:inputType="textPassword"
-        app:layout_constraintBottom_toTopOf="@+id/login_button"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent" />
@@ -29,20 +32,26 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="12dp"
+        android:width="152dp"
         android:onClick="onLoginClick"
         android:text="@string/login"
+        android:letterSpacing="0.3"
         app:layout_constraintBottom_toTopOf="@+id/register_button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.991" />
 
     <Button
         android:id="@+id/register_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="288dp"
+        android:width="152dp"
         android:onClick="onRegisterClick"
         android:text="@string/register"
+        android:letterSpacing="0.3"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -56,11 +65,14 @@
         android:height="48dp"
         android:background="@drawable/login_register_background"
         android:ems="10"
+        android:hint="Login"
         android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textSize="18sp"
         app:layout_constraintBottom_toTopOf="@+id/editPasswordTextBox"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.906" />
+        app:layout_constraintVertical_bias="0.948" />
 </androidx.constraintlayout.widget.ConstraintLayout>
