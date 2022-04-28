@@ -1,8 +1,10 @@
-package com.tumsum;
+package com.tumsum.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.tumsum.R;
 
 public class MainPageActivity extends AppCompatActivity {
 

@@ -10,10 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TumSum">
         <activity
-            android:name=".MainPageActivity"
+            android:name=".activities.MainPageActivity"
             android:exported="false" />
         <activity
-            android:name=".LoadingActivity"
+            android:name=".activities.LoadingActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -22,7 +22,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".LoginActivity"
+            android:name=".activities.LoginActivity"
 
             android:exported="true">
             <intent-filter>
